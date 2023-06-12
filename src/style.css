@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /* border: 1px solid red; */
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    height: 100vh;
+    @apply bg-gray-200;
+}
+
+#app {
+    @apply h-full;
+}
